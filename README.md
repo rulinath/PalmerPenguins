@@ -7,3 +7,4 @@ library(palmerpenguins)
 library(ggthemes)  
 penguins  
 glimpse(penguins)  
+ggplot(data = penguins)  
