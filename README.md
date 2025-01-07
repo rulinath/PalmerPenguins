@@ -43,3 +43,7 @@ ggplot(penguins, aes(x = body_mass_g, color = species, fill = species)) +
 Code for 1.5.2
 ggplot(penguins, aes(x = island, fill = species)) +
   geom_bar() + geom_bar(position = "fill")  
+
+Code for 1.5.3
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point()
