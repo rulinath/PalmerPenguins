@@ -1,9 +1,9 @@
 # PalmerPenguins
 code for textbook ch 1
 
-install.packages("tidyverse")
+install.packages("tidyverse")  
 library(tidyverse)  
-library(palmerpenguins)
+library(palmerpenguins)  
 library(ggthemes)  
 penguins  
 glimpse(penguins)  
@@ -11,5 +11,5 @@ ggplot(
   data = penguins,
   mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)
 ) +
-  geom_point(mapping = aes(color = species)) +
+  geom_point(mapping = aes(color = species, shape = species)) +
   geom_smooth(method = "lm")  
