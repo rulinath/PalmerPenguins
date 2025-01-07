@@ -27,4 +27,7 @@ ggplot (penguins, aes(x = fct_infreq(species))) + geom_bar()
 
 Code for l.4.2
 ggplot(penguins, aes(x = body_mass_g)) +
-  geom_histogram(binwidth = 200)
+  geom_histogram(binwidth = 200)  
+
+ggplot(penguins, aes(x = body_mass_g)) +
+  geom_density()  
