@@ -31,3 +31,7 @@ ggplot(penguins, aes(x = body_mass_g)) +
 
 ggplot(penguins, aes(x = body_mass_g)) +
   geom_density()  
+
+Code for 1.5.1  
+ggplot(penguins, aes(x = species, y = body_mass_g)) +
+  geom_boxplot()  
