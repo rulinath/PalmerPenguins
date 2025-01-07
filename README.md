@@ -1,6 +1,7 @@
 # PalmerPenguins
 code for textbook ch 1
 
+Code for 1.2
 install.packages("tidyverse")  
 library(tidyverse)  
 library(palmerpenguins)  
@@ -23,3 +24,7 @@ ggplot(
 
   Code for 1.4.1  
 ggplot (penguins, aes(x = fct_infreq(species))) + geom_bar()
+
+Code for l.4.2
+ggplot(penguins, aes(x = body_mass_g)) +
+  geom_histogram(binwidth = 200)
