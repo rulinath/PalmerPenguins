@@ -39,3 +39,7 @@ ggplot(penguins, aes(x = body_mass_g, color = species)) +
   geom_density(linewidth = 0.75)  
 ggplot(penguins, aes(x = body_mass_g, color = species, fill = species)) +
   geom_density(alpha = 0.5)  
+
+Code for 1.5.2
+ggplot(penguins, aes(x = island, fill = species)) +
+  geom_bar()  
