@@ -19,4 +19,7 @@ ggplot(
     x = "Flipper length (mm)", y = "Body mass (g)",
     color = "Species", shape = "Species"
   ) +
-  scale_color_colorblind()
+  scale_color_colorblind()  
+
+  Code for 1.4.1  
+ggplot (penguins, aes (x = species)) + geom_bar()
