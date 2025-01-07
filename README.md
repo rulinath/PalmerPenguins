@@ -37,3 +37,5 @@ ggplot(penguins, aes(x = species, y = body_mass_g)) +
   geom_boxplot()  
 ggplot(penguins, aes(x = body_mass_g, color = species)) +
   geom_density(linewidth = 0.75)  
+ggplot(penguins, aes(x = body_mass_g, color = species, fill = species)) +
+  geom_density(alpha = 0.5)  
