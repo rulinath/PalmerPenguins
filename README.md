@@ -22,4 +22,4 @@ ggplot(
   scale_color_colorblind()  
 
   Code for 1.4.1  
-ggplot (penguins, aes (x = species)) + geom_bar()
+ggplot (penguins, aes(x = fct_infreq(species))) + geom_bar()
