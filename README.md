@@ -51,3 +51,8 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
 Code for 1.5.4
 ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
   geom_point(aes(color = species, shape = island))  
+
+Code for 1.6: Saving Plots  
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point()
+ggsave(filename = "penguin-plot.png") 
